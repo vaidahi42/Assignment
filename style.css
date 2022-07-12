@@ -1,0 +1,90 @@
+body{
+   background-color: rgba(15, 14, 14, 0.971);
+}
+img{
+    width: 40px;
+}
+nav Ul a{
+    padding: 0px  10px  0px  10px;
+}
+nav UL{
+    display: flex;
+    list-style-type: none;
+    height: 55px;
+    background-color: rgba(9, 1, 1, 0.981);
+    color: antiquewhite;
+    align-items: center;
+    word-spacing: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: 75vh;
+    background-color: rgb(0, 8, 8);
+    color: aliceblue;
+    font-family: cursive;
+    background-image:url('images\ \(1\).jpg');
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+   
+    background-size: cover;
+}
+h2{
+   padding-left: 7px;
+   padding-top: 10px;}
+.bottom{
+    position: sticky;
+    height: 48px;
+    background-color: rgba(9, 1, 1, 0.981);
+    color: aliceblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 0;
+    margin: 0;
+ 
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+.myprogressbar{
+    width:100vw;
+    text-align: center;
+  
+}
+a:link {
+    color: antiquewhite;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  dv{
+    padding-top: 80px;
+    padding-left: 0%;
+
+  }
